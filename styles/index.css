@@ -97,3 +97,69 @@ body {
 .btn-outline:hover{
     background-color: #30B868;
 }
+
+/* Problems */
+.problems{
+    text-align: center;
+    padding: 30px 60px;
+}
+
+.problems h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.subtitle{
+    color: #627382;
+    font-size: 16px;
+}
+.card{
+    width: 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color:white;
+  padding: 10px;
+
+}
+.card img{
+    background-color: #F95555;
+    border-radius: 100px;
+    padding: 10px;
+
+}
+
+.problems-grid{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.card p{
+    color: #627382;
+    
+}
+
+
+/* solutions */
+.solutions{
+   display: flex;
+   align-items: center;
+   gap: 40px;
+   padding: 20px 60px;
+   
+}
+
+.sltn{
+    color: #30B868;
+}
+.gray{
+    color: #627382;
+}
+
+.solutions li{
+    list-style: none;
+}
+.picture img{
+   max-width: 100%;
+   height: auto;
+}
+
