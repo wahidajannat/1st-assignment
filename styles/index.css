@@ -163,3 +163,55 @@ body {
    height: auto;
 }
 
+/* challenge */
+
+.challenge{
+text-align: center;
+}
+
+.challenge h3{
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+.challenge p{
+    color: #627382;
+}
+
+.challenge button{
+     background-color: #30B868;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.challenge button:hover{
+background-color: aqua;
+}
+/* footer */
+footer{
+    background-color: #001931;
+}
+.footer{
+    background-color: #001931;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-logo{
+    width: 100%;
+    height: auto;
+    padding: 20px 60px;
+}
+footer p{
+    color: white;
+    text-align: center;
+} 
+
+.footer h5{
+    color: white;
+    
+}
