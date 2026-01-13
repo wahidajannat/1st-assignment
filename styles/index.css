@@ -74,6 +74,9 @@ body {
     color: white;
 }
 .btn-primary{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     background-color: #30B868;
     color: white;
     padding: 10px 25px;
@@ -179,7 +182,7 @@ text-align: center;
 }
 
 .challenge button{
-     background-color: #30B868;
+    background-color: #30B868;
     padding: 10px 30px;
     border: none;
     border-radius: 5px;
@@ -189,12 +192,20 @@ text-align: center;
 .challenge button:hover{
 background-color: aqua;
 }
+
+.btn-cha {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  
+}
+
 /* footer */
 footer{
     background-color: #001931;
 }
 .footer{
-    background-color: #001931;
+    /* background-color: #001931; */
     padding: 20px 60px;
     display: flex;
     justify-content: space-between;
@@ -213,5 +224,16 @@ footer p{
 
 .footer h5{
     color: white;
+    font-size: 20px;
+    font-weight: 500px
     
+}
+.icons{
+  height: 40px;
+    display: flex;
+    gap: 10px;
+    
+}
+.icons img{
+    border-radius: 8px;
 }
