@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+body {
+    
+}
+
+
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.navbar{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 60px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    
+}
+.nav{
+    display: flex;
+    gap: 30px;
+    
+}
+.navbar button{
+    background-color: #30B868;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+
+}
+
