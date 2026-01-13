@@ -39,6 +39,47 @@ body {
     border-radius: 5px;
     color: white;
 
+}
 
+/* Banner */
+.banner{
+    text-align: center;
+    padding: 50px 80px;
+    background-image: url(hero-bg.png);
+   
+}
+
+.badge{
+    color: #30B868;
+    background-color:white;
+    border-radius: 1000px;
+    padding: 8px 20px;
+}
+
+.banner h1 span{
+    color: #30B868;
+}
+
+.banner{
+    color: white;
+}
+
+.banner h1{
+    font-size: 3em;
+    color: white;
+}
+.btn-primary{
+    background-color: #30B868;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+
+.btn-outline{
+    border:1px solid white;
+    padding: 10px 25px;
+    background: none;
+    color: white;
+    border-radius: 4px;
 }
 
