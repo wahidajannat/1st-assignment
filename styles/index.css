@@ -38,8 +38,13 @@ body {
     border: none;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 
 }
+ .navbar button:hover{
+    background-color: chocolate;
+ }
+
 
 /* Banner */
 .banner{
@@ -73,6 +78,7 @@ body {
     color: white;
     padding: 10px 25px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn-outline{
@@ -81,5 +87,13 @@ body {
     background: none;
     color: white;
     border-radius: 4px;
+    cursor: pointer;
 }
 
+.btn-primary:hover{
+    background-color: chocolate;
+}
+
+.btn-outline:hover{
+    background-color: #30B868;
+}
